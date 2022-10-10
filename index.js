@@ -12,10 +12,3 @@ app.get('/test', function(request, response) {
 app.listen(port, function() {
 	console.log("Server is running at http://localhost:3000/")
 })
-const server = http.createServer((request, response)=>{
-	response.writeHead(200, {'Content-Type': 'text/html'})
-	response.write("<h3>HelloWorld<h3>")
-	response.end("<h3>HelloWorld<h3>")
-
-
-})
