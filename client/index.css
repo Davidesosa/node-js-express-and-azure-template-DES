@@ -1,0 +1,7 @@
+.subHeader {
+    border-color: black; 
+    border-style: groove; 
+    border-left:none; 
+    border-right:none; 
+    border-top:none;
+}

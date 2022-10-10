@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dice Roller Game!</title>
+    <link rel="stylesheet" href="Craps.css">
+    <script src="Craps.js"></script>
+    <!--This program calls in the js and css file-->
+</head>
+<body onload="sumOf2Dice()">
+    <h1>Dice Roller Game</h1>
+    <h2>Welcome to the Dice Roller Website!</h2>
+    <h3>The objective of the game is simple, all you have to do is add the 2 numbers on the dice so that they have a sum above 7.</h3>
+    <button type="button" onclick="sumOf2Dice()"autofocus>Roll Dice</button><br /><br /><!--Calls the sumOf2Dice function when the user presses the button-->
+        Dice 1: <input id="dice1" type="text" value="" size="5" disabled><br /><br /><!--updates the dice1 textbox when the user rolls and doesn't allow user to modify textbox-->
+        Dice 2: <input id="dice2" type="text" value="" size="5" disabled><br /><br /><!--updates dice2 and textbox has same features as dice1-->
+        Sum: <input id="sum" type="text" value="" size="5" disabled><br /><br /><!--Displays the sum every time the user rolls the dice-->
+        <input id="message" type="text" value="" disabled><br /><br /><!--Empty until the user rolls the dice(will never actually be empty though because the dice roll on launch)-->
+</body>
+</html>
